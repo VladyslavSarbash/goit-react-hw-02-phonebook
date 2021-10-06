@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class RenderContactList extends Component {
+  static propTypes = {
+    contacts: PropTypes.arrayOf(PropTypes.object),
+    filter: PropTypes.string,
+  };
+
   render() {
     const { contacts, filter } = this.props;
     const searchFilter = contacts.filter(({ name }) => {

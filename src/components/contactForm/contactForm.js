@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import shortid from 'shortid';
 
 class ContactForm extends Component {
+  static propTypes = {
+    contacts: PropTypes.arrayOf(PropTypes.object),
+  };
+
   state = {
     name: '',
     number: '',

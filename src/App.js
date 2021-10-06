@@ -1,7 +1,6 @@
 import './App.css';
 import React, { Component } from 'react';
-import shortid from 'shortid';
-// import s from './form.module.css';
+// import PropTypes from 'prop-types';
 import RenderContactList from './components/contactList/renderContactList';
 import Filter from './components/filter/filter';
 import ContactForm from './components/contactForm/contactForm';
