@@ -1,9 +1,8 @@
-import './App.css';
 import React, { Component } from 'react';
-// import PropTypes from 'prop-types';
-import RenderContactList from './components/contactList/renderContactList';
-import Filter from './components/filter/filter';
-import ContactForm from './components/contactForm/contactForm';
+import './App.css';
+import RenderContactList from './components/ContactList/renderContactList';
+import Filter from './components/Filter/filter';
+import ContactForm from './components/ContactForm/contactForm';
 
 class App extends Component {
   state = {
